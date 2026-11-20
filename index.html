@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HawkBots // FRC Team 4619</title>
+  <meta name="description" content="HawkBots, FIRST Robotics Competition Team 4619 from Ocean View High School." />
+  <meta name="theme-color" content="#07070a" />
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <link rel="apple-touch-icon" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Share+Tech+Mono&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="nav__brand" href="#top" aria-label="HawkBots home">
+      <img src="assets/logo.png" alt="" width="40" height="40" />
+      <span>HAWKBOTS<em>//4619</em></span>
+    </a>
+    <button class="nav__toggle" aria-expanded="false" aria-controls="nav-links">
+      <span class="sr-only">Toggle menu</span>
+      <span class="nav__bars" aria-hidden="true"></span>
+    </button>
+    <nav id="nav-links" class="nav__links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#robot">Robot</a>
+      <a href="#shop">Shop</a>
+      <a href="#sponsors">Sponsors</a>
+      <a href="#join" class="nav__cta">Join</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ===== HERO ===== -->
+    <section id="top" class="hero">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="hero__inner">
+        <div class="hero__logo">
+          <img src="assets/logo.png" alt="HawkBots logo: a hawk diving through a gear" width="455" height="455" />
+        </div>
+        <div class="hero__text">
+          <p class="hud-label">&gt; SYSTEM ONLINE_ <span class="blink" aria-hidden="true">█</span></p>
+          <h1 class="glitch" data-text="HAWKBOTS">HAWKBOTS</h1>
+          <p class="hero__sub">FRC TEAM <strong>#4619</strong> // OCEAN VIEW HIGH SCHOOL</p>
+          <p class="hero__tag">Students designing, building, and programming competition robots. Forged in steel, powered by code.</p>
+          <div class="hero__actions">
+            <a class="btn btn--red" href="#join">Join the Team</a>
+            <a class="btn btn--gold" href="#sponsors">Support Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section reveal">
+      <p class="hud-label">// SYS.01 ABOUT</p>
+      <h2>Who We Are</h2>
+      <div class="about">
+        <div class="panel">
+          <p>The HawkBots are Ocean View High School's <strong>FIRST Robotics Competition</strong> team. Every season we get just a few weeks to design, build, and program an industrial-sized robot to take on a brand-new game against teams from around the world.</p>
+          <p>[ADD A SENTENCE OR TWO ABOUT THE TEAM'S HISTORY, CULTURE, OR WHAT MAKES YOU DIFFERENT.]</p>
+          <p>Beyond the robot, we learn CAD, machining, electronics, software, business, and outreach, and we practice <em>Gracious Professionalism</em> every step of the way.</p>
+        </div>
+        <ul class="stats">
+          <li class="stat"><span class="stat__num">[XX]</span><span class="stat__label">Members</span></li>
+          <li class="stat"><span class="stat__num">[XX]</span><span class="stat__label">Seasons</span></li>
+          <li class="stat"><span class="stat__num">[XX]</span><span class="stat__label">Competitions</span></li>
+          <li class="stat"><span class="stat__num">[XX]</span><span class="stat__label">Awards</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== ROBOT ===== -->
+    <section id="robot" class="section reveal">
+      <p class="hud-label">// SYS.02 HARDWARE</p>
+      <h2>Current Robot</h2>
+      <div class="robot">
+        <div class="panel robot__img" role="img" aria-label="Robot photo placeholder">
+          <span>[ROBOT PHOTO]</span>
+        </div>
+        <div class="panel robot__spec">
+          <h3>[ROBOT NAME] <span class="muted">// [SEASON YEAR] [GAME NAME]</span></h3>
+          <dl>
+            <div><dt>Drivetrain</dt><dd>[e.g. Swerve, 4 modules]</dd></div>
+            <div><dt>Primary Mechanism</dt><dd>[e.g. Elevator + coral intake]</dd></div>
+            <div><dt>Autonomous</dt><dd>[e.g. 3-piece auto with vision]</dd></div>
+            <div><dt>Weight</dt><dd>[XXX] lbs</dd></div>
+            <div><dt>Language</dt><dd>[e.g. Java / WPILib]</dd></div>
+          </dl>
+        </div>
+      </div>
+
+      <h3 class="subhead">Season Log</h3>
+      <ol class="timeline">
+        <li><span class="timeline__year">[YEAR]</span><span>[EVENT NAME]: [RESULT, e.g. Quarterfinalist]</span></li>
+        <li><span class="timeline__year">[YEAR]</span><span>[EVENT NAME]: [RESULT / AWARD]</span></li>
+        <li><span class="timeline__year">[YEAR]</span><span>[EVENT NAME]: [RESULT / AWARD]</span></li>
+      </ol>
+    </section>
+
+    <!-- ===== SHOP ===== -->
+    <section id="shop" class="section reveal">
+      <div class="panel panel--gold shop">
+        <div>
+          <p class="hud-label">// SYS.03 FUNDRAISER</p>
+          <h2>HawkBots Printing</h2>
+          <p>Show your HawkBots pride with custom-printed apparel made by our students. Every purchase directly funds STEM education and our robotics program.</p>
+        </div>
+        <a class="btn btn--gold" href="https://n2036498.websitebuilder.online" target="_blank" rel="noopener">Visit the Shop ↗</a>
+      </div>
+    </section>
+
+    <!-- ===== SPONSORS ===== -->
+    <section id="sponsors" class="section reveal">
+      <p class="hud-label">// SYS.04 SPONSORS</p>
+      <h2>Powered By</h2>
+      <p class="lead">Our sponsors make the robot possible. Thank you!</p>
+      <h3 class="tier tier--gold">Gold</h3>
+      <ul class="sponsors sponsors--lg">
+        <li class="panel">[SPONSOR NAME]</li>
+        <li class="panel">[SPONSOR NAME]</li>
+      </ul>
+      <h3 class="tier tier--red">Supporter</h3>
+      <ul class="sponsors">
+        <li class="panel">[SPONSOR]</li>
+        <li class="panel">[SPONSOR]</li>
+        <li class="panel">[SPONSOR]</li>
+        <li class="panel">[SPONSOR]</li>
+      </ul>
+      <div class="center">
+        <a class="btn btn--red" href="mailto:[TEAM EMAIL]?subject=Sponsoring%20HawkBots%204619">Become a Sponsor</a>
+      </div>
+    </section>
+
+    <!-- ===== JOIN ===== -->
+    <section id="join" class="section reveal">
+      <p class="hud-label">// SYS.05 RECRUIT</p>
+      <h2>Join the Flock</h2>
+      <div class="join">
+        <div class="panel">
+          <h3>Students</h3>
+          <p>No experience needed. We have roles in build, programming, electrical, CAD, media, and business. [WHEN AND WHERE YOU MEET, e.g. Room XXX, Mon/Wed/Fri after school.]</p>
+        </div>
+        <div class="panel">
+          <h3>Mentors &amp; Parents</h3>
+          <p>Engineers, programmers, machinists, and organizers: we'd love your help. Reach out and we'll find a fit.</p>
+        </div>
+        <div class="panel contact">
+          <h3>Contact</h3>
+          <p><a href="mailto:[TEAM EMAIL]">[TEAM EMAIL]</a></p>
+          <ul class="social">
+            <li><a href="[INSTAGRAM URL]" aria-label="Instagram">IG</a></li>
+            <li><a href="[YOUTUBE URL]" aria-label="YouTube">YT</a></li>
+            <li><a href="https://www.thebluealliance.com/team/4619" aria-label="The Blue Alliance team page">TBA</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><span class="hud-label">HAWKBOTS // FRC 4619</span></p>
+    <p>Ocean View High School · [CITY, STATE]</p>
+    <p class="muted">A <a href="https://www.firstinspires.org" target="_blank" rel="noopener"><em>FIRST</em>®</a> Robotics Competition team. More than robots.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
