@@ -23,6 +23,8 @@ Single-page cyberpunk homepage for HawkBots, FIRST Robotics Competition Team 461
 - **Season Log** (`ol.timeline` inside `#robot`): one `<li>` per year, newest first (`reversed`). Each event uses `<strong>` for the event name, an optional `<span class="tag">` (`off-season`, `rookie year`), and `<span class="res">` with the rank and `<span class="rec">W-L-T</span>` (qualification record). Add `is-highlight` to a year's `<li>` to accent it. Results come from The Blue Alliance (https://www.thebluealliance.com/team/4619/history), and the source line under the timeline credits it.
 - **External links**: use `target="_blank" rel="noopener"`.
 
-## Git workflow
+## Git workflow and deployment
 
 Commit directly to `main` and push to `origin` (`github.com:Hawkbots/homepage`).
+
+The site is hosted on GitHub Pages from the `main` branch, so pushing to `main` is the deployment. Changes go live within a few minutes and there is no staging step. Preview locally and check the page before pushing.
